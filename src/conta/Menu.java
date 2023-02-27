@@ -15,30 +15,6 @@ public class Menu {
 
 		int opcao;
 		
-		//teste conta 
-		
-		Conta c1 = new Conta(69, 420, 1, "Amanda", 50000.0f);
-		c1.visualizar();
-		c1.sacar(12000.0f);
-		c1.visualizar();
-		c1.depositar(5000.0f);
-		c1.visualizar();
-		
-		//teste conta corrente
-		ContaCorrente cc1 = new ContaCorrente(115, 234, 1, "Catharina", 20000.0f, 1000.0f);
-		cc1.visualizar();
-		cc1.sacar(12000.0f);
-		cc1.visualizar();
-		cc1.depositar(5000.0f);
-		cc1.visualizar();
-		//teste conta poupança
-		ContaPoupanca cp1 = new ContaPoupanca(13, 690, 2, "Ana Sophia", 100000.0f, 15);
-		cp1.visualizar();
-        cp1.sacar(5000.0f);
-		cp1.visualizar();
-		cp1.depositar(5000.0f);
-		cp1.visualizar();
-		
 		while(true) {
 			
 			System.out.println(Cores.TEXT_CYAN_BRIGHT);
